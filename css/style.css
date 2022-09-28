@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+}
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(171% + 1.3px);
+  height: 402px;
+}
+
+.wave .shape-fill {
+  fill: #e0e8ff;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 98%);
+}
+h1 {
+  text-align: center;
+  line-height: 3;
+  font-weight: 900;
+  margin: 0 auto;
+  width: 70%;
+}
+p{
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
+.svg {
+  top: 25px;
+  left: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.co{
+ margin-top: 70px;
+ font-weight: 900;
+ font-family: "Red Hat Display", sans-serif;
+ font-size: 15px;
+ color: #b2b1b1 ;
+}
+.co:hover{
+  color: black;
+}
+strong{
+  font-weight: 900;
+}
+
+.p {
+  top: 25px;
+  left: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  }
+
+.a {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  color: rgb(37, 37, 176);
+  font-weight: 900;
+  font-size: 15px;
+}
+.a:hover{
+  text-decoration: none;
+
+}
+.anual {
+  position: relative;
+  height: 100px;
+  width: 341px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: hsla(217, 100%, 97%, 0.892);
+}
+#card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 900px;
+}
+.main {
+  border-radius: 20px;
+  position: absolute;
+  margin: 100px auto;
+  height: 650px;
+  width: 437px;
+  background-color: white;
+}
+.img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.btn {
+  -webkit-box-shadow: 7px 9px 16px #c8c8c8;
+  -moz-box-shadow: 7px 9px 16px #c8c8c8;
+  box-shadow: 7px 9px 16px #c8c8c8;
+  text-decoration: none;
+}
+.btn {
+  position: absolute;
+  left: 50px;
+  bottom: 100px;
+  background: #382ae1;
+  background-image: -webkit-linear-gradient(top, #382ae1, #382ae1);
+  background-image: -moz-linear-gradient(top, #382ae1, #382ae1);
+  background-image: -ms-linear-gradient(top, #382ae1, #382ae1);
+  background-image: -o-linear-gradient(top, #382ae1, #382ae1);
+  background-image: linear-gradient(to bottom, #382ae1, #382ae1);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: "Red Hat Display", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 102px 10px 102px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #7e77e0;
+  background-image: -webkit-linear-gradient(top, #7e77e0, #7e77e0);
+  background-image: -moz-linear-gradient(top, #7e77e0, #7e77e0);
+  background-image: -ms-linear-gradient(top, #7e77e0, #7e77e0);
+  background-image: -o-linear-gradient(top, #7e77e0, #7e77e0);
+  background-image: linear-gradient(to bottom, #7e77e0, #7e77e0);
+  text-decoration: none;
+}
